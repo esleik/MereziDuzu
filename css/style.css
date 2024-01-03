@@ -1,0 +1,45 @@
+.color1{
+    background-color: #286998;
+}
+
+.color2{
+    background-color: #B0DBFB;
+}
+
+.colorLetra1{
+    color: #103479;
+}
+
+.ItimLetra{
+    font-family: 'Itim';
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.busqueda{
+    position: relative;
+}
+.botonBusqueda{
+    position: absolute; 
+    right: 3%; 
+    top: 28%; 
+    height: 45%;
+    width: 12%; 
+    left: 85%;
+}
+
+.lupa{
+    position: absolute; 
+    right: 10%;
+    top: 10%;
+    width: 80%;
+    height: 70%;
+
+}
+
+.imgsCarousel{
+    width: 100rem;
+    height: 29rem;
+    opacity: 90%;
+}
