@@ -1,36 +1,45 @@
-.color1{
+.color1 {
     background-color: #286998;
 }
 
-.color2{
+.color2 {
     background-color: #B0DBFB;
 }
 
-.colorLetra1{
+.color3 {
+    background-color: #C9F0F5;
+}
+
+.colorLetra1 {
     color: #103479;
 }
 
-.ItimLetra{
+.colorLetra2 {
+    color: #286998;
+}
+
+.ItimLetra {
     font-family: 'Itim';
     font-size: 30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
-.busqueda{
+.busqueda {
     position: relative;
 }
-.botonBusqueda{
-    position: absolute; 
-    right: 3%; 
-    top: 28%; 
+
+.botonBusqueda {
+    position: absolute;
+    right: 3%;
+    top: 28%;
     height: 45%;
-    width: 12%; 
+    width: 12%;
     left: 85%;
 }
 
-.lupa{
-    position: absolute; 
+.lupa {
+    position: absolute;
     right: 10%;
     top: 10%;
     width: 80%;
@@ -38,8 +47,139 @@
 
 }
 
-.imgsCarousel{
+.imgsCarousel {
     width: 100rem;
     height: 29rem;
     opacity: 90%;
 }
+
+.textoSombra {
+    -webkit-text-stroke: 3px black;
+    text-stroke: 3px black;
+    color: white;
+    font-size: 50px;
+}
+
+.parrafo1 {
+    -webkit-text-stroke: 2px black;
+    text-stroke: 4px black;
+    color: white;
+}
+
+.circulo {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: transparent; /* Color de fondo transparente */
+    border-radius: 50%;
+    border: 3px solid #070707; /* Borde de 2px sólido con color #3498db */
+    margin: 10px; 
+}
+
+    /* Reglas de medios para dispositivos móviles */
+    @media (max-width: 576px) {
+        .d-flex.justify-content-evenly {
+            justify-content: center !important; /* Anula la justificación de Bootstrap */
+            text-align: center; /* Centra los elementos horizontalmente */
+        }
+
+        .d-flex.flex-wrap.justify-content-evenly > div {
+            flex-basis: 51%; 
+        }
+    }
+
+
+
+    .imgCirculo{
+        position: absolute;
+        width: 130px;
+        height: 110px;
+        top:5%;
+        left: 0%;
+    }
+
+    .imgCirculoGuitarra{
+        position: absolute;
+        width: 80px;
+        height: 130px;
+        top:2%;
+        left: 22%;
+    }
+
+    .imgCirculoAmpli{
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        top:10%;
+        left: 13%;
+    }
+
+    .imgCirculoDj{
+        position: absolute;
+        width: 130px;
+        height: 110px;
+        top:6%;
+        left: 5%;
+    }
+
+
+    .producto{
+        width: 16rem;
+    }
+
+    .imgSus{
+        width: 100%;
+        height: 35rem;
+    }
+
+    .quitaPadding{
+
+        padding: 0;
+    }
+
+    .parrafo2{
+        -webkit-text-stroke: 2px black;
+        text-stroke: 4px black;
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        top: 20%;
+        left: 32%;
+
+    }
+
+    
+    .parrafo3{
+        -webkit-text-stroke: 2px black;
+        text-stroke: 4px black;
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        top: 30%;
+        left: 34%;
+
+    }
+
+    .inputSus{
+
+        position: absolute;
+        top: 41%;
+        left: 35%;
+        height: 40px;
+        width: 300px;
+        background-color: transparent;
+        border: 4px solid #070707; /* Borde de 2px sólido con color #3498db */
+        margin: 10px; 
+        border-radius: 10px;
+
+    }
+
+    .botonSus{
+
+        position: absolute;
+        top: 42%;
+        left: 56%;
+        height: 40px;
+        width: 100px;
+        border-bottom: 30%;
+    }
