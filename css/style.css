@@ -210,3 +210,14 @@
         width: 300px;
         border-radius: 20px;
     }
+
+    .telefono{
+
+        height: 45px;
+        width: 45px;
+    }
+
+    .numero{
+
+        font-size: 25px;
+    }
