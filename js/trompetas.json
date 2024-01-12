@@ -1,0 +1,30 @@
+{
+    "trompetas": [
+      {
+        "id": 1,
+        "marca": "Yamaha",
+        "nombre": "Yamaha YTR-2330",
+        "descripcion": "Trompeta estándar para principiantes con un sonido claro y respuesta fácil.",
+        "precio": 600.00,
+        "imagen": "img/productos/.jpg"
+      },
+      {
+        "id": 2,
+        "marca": "Yamaha",
+        "nombre": "Yamaha YTR-8335LA",
+        "descripcion": "Trompeta profesional de la serie Xeno con un tono potente y una excelente proyección.",
+        "precio": 2500.00,
+        "imagen": "img/productos/yamaha-ytr-8335LA.png",
+        "loMasVendido":true
+      },
+      {
+        "id": 3,
+        "marca": "Yamaha",
+        "nombre": "Yamaha YTR-6310Z",
+        "descripcion": "Trompeta de la serie Custom Z con un diseño único y versatilidad tonal.",
+        "precio": 1800.00,
+        "imagen": "img/productos/.jpg"
+      }
+    ]
+  }
+  

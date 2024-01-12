@@ -1,0 +1,30 @@
+{
+    "saxos": [
+      {
+        "id": 1,
+        "marca": "Yamaha",
+        "nombre": "Yamaha YAS-280",
+        "descripcion": "Saxofón alto ideal para principiantes con un sonido cálido y fácil de tocar.",
+        "precio": 1200.00,
+        "imagen": "img/productos/.jpg"
+      },
+      {
+        "id": 2,
+        "marca": "Yamaha",
+        "nombre": "Yamaha YTS-62III",
+        "descripcion": "Saxofón tenor profesional con una respuesta rápida y un tono equilibrado.",
+        "precio": 3000.00,
+        "imagen": "img/productos/saxo-yamaha.jpg",
+        "loMasVendido":true
+      },
+      {
+        "id": 3,
+        "marca": "Yamaha",
+        "nombre": "Yamaha YSS-82Z",
+        "descripcion": "Saxofón soprano de la serie Custom Z con una proyección excepcional y versatilidad tonal.",
+        "precio": 2500.00,
+        "imagen": "img/productos/.jpg"
+      }
+    ]
+  }
+  

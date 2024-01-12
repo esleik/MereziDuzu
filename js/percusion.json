@@ -1,0 +1,54 @@
+{
+    "percusion": [
+      {
+        "id": 1,
+        "marca": "Sabian",
+        "nombre": "Sabian B8X Cymbal Set",
+        "descripcion": "Set de platillos de aleación de bronce B8X con tono brillante y versátil.",
+        "precio": 300.00,
+        "imagen": "img/productos/.jpg"
+      },
+      {
+        "id": 2,
+        "marca": "Tama",
+        "nombre": "Tama Imperialstar Drum Kit",
+        "descripcion": "Batería completa con cascos de álamo y hardware resistente, ideal para músicos intermedios.",
+        "precio": 900.00,
+        "imagen": "img/productos/.jpg"
+      },
+      {
+        "id": 3,
+        "marca": "Yamaha",
+        "nombre": "Yamaha DTX Multi 12",
+        "descripcion": "Pad de percusión multipropósito con una amplia variedad de sonidos y funciones.",
+        "precio": 500.00,
+        "imagen": "img/productos/.jpg"
+      },
+      {
+        "id": 4,
+        "marca": "Sabian",
+        "nombre": "Sabian HHX Evolution Hats",
+        "descripcion": "Hi-hats de la serie HHX Evolution con tono oscuro y respuesta rápida.",
+        "precio": 400.00,
+        "imagen": "img/productos/.jpg"
+      },
+      {
+        "id": 5,
+        "marca": "Tama",
+        "nombre": "Tama Speed Cobra Bass Pedal",
+        "descripcion": "Pedal de bombo de alta velocidad con diseño innovador para una respuesta rápida y potente.",
+        "precio": 250.00,
+        "imagen": "img/productos/.jpg"
+      },
+      {
+        "id": 6,
+        "marca": "Yamaha",
+        "nombre": "Yamaha Stage Custom Birch Snare Drum",
+        "descripcion": "Caja de batería de abedul con un sonido nítido y proyección excepcional.",
+        "precio": 300.00,
+        "imagen": "img/productos/yamaha-drum.jpg",
+        "loMasVendido":true
+      }
+    ]
+  }
+  

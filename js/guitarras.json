@@ -1,0 +1,32 @@
+{
+  "guitarras": [
+    {
+      "id": 1,
+      "marca": "Fender",
+      "nombre": "Fender Stratocaster",
+      "descripcion": "Una guitarra eléctrica icónica con un sonido versátil y un diseño clásico.",
+      "precio": 1200.00,
+      "imagen": "img/productos/.jpg",
+      "tipo": "eléctrica"
+    },
+    {
+      "id": 2,
+      "marca": "Squier",
+      "nombre": "Squier Telecaster",
+      "descripcion": "Una opción asequible con el estilo clásico de Fender, perfecta para principiantes.",
+      "precio": 400.00,
+      "imagen": "img/productos/.jpg",
+      "tipo": "eléctrica"
+    },
+    {
+      "id": 3,
+      "marca": "Yamaha",
+      "nombre": "Yamaha FG800",
+      "descripcion": "Una guitarra acústica con un sonido rico y equilibrado, ideal para actuaciones en vivo.",
+      "precio": 600.00,
+      "imagen": "img/productos/yamaha-FG800.png",
+      "tipo": "acústica",
+      "loMasVendido":true
+    }
+  ]
+}

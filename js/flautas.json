@@ -1,0 +1,29 @@
+{
+    "flautas": [
+      {
+        "id": 1,
+        "marca": "Yamaha",
+        "nombre": "Yamaha YFL-222",
+        "descripcion": "Flauta plateada de niquel con excelente entonación y respuesta fácil, ideal para principiantes.",
+        "precio": 500.00,
+        "imagen": "img/productos/.jpg"
+      },
+      {
+        "id": 2,
+        "marca": "Yamaha",
+        "nombre": "Yamaha YFL-372",
+        "descripcion": "Flauta profesional de plata maciza con un tono cálido y una gran proyección, perfecta para músicos avanzados.",
+        "precio": 2000.00,
+        "imagen": "img/productos/.jpg"
+      },
+      {
+        "id": 3,
+        "marca": "Yamaha",
+        "nombre": "Yamaha YFL-587H",
+        "descripcion": "Flauta de oro de 14 quilates con llaves francesas abiertas y una respuesta rápida, diseñada para profesionales exigentes.",
+        "precio": 5000.00,
+        "imagen": "img/productos/.jpg"
+      }
+    ]
+  }
+  
