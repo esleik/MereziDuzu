@@ -27,25 +27,21 @@ function cargarYMostrarProductosDestacados(archivoJSON, contenedorID) {
 function mostrarProductosDestacados(productos, contenedorID) {
   var contenedor = $(contenedorID);
 
-  // Crear un único div row para contener todas las tarjetas
   var row = contenedor.find('.row');
 
   if (row.length === 0) {
-    row = $('<div class="row justify-content-center"></div>'); // Añadido 'justify-content-center'
+    row = $('<div class="row justify-content-center"></div>');
     contenedor.append(row);
   }
 
-  // Filtrar solo los productos que son "lo más vendido"
   var destacados = productos.filter(function (producto) {
     return producto.loMasVendido === true;
   });
 
-  // Ordenar por id
   destacados.sort(function (a, b) {
     return a.id - b.id;
   });
 
-  // Iterar sobre los productos destacados y construir el HTML
   destacados.forEach(function (producto, index) {
     var nuevoProducto = $(`
           <div class="col-12 col-md-4 mb-4">
@@ -61,7 +57,6 @@ function mostrarProductosDestacados(productos, contenedorID) {
           </div>
       `);
 
-    // Agrega el producto a la fila actual
     row.append(nuevoProducto);
   });
 }

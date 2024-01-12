@@ -42,7 +42,7 @@
   <div class="container-fluid color2">
     <div class="row">
       <div class="col-12 col-md-4">
-        <h4 class="h3 colorLetra1 ItimLetra text-center py-3">Merezi Duzu</h4>
+        <h4 class="h3 colorLetra1 ItimLetra text-center py-3"><a class="quitarA" href="Index.html">Merezi Duzu</a></h4>
       </div>
       <div class="col-12 col-md-4">
         <form class="d-flex py-2 busqueda" role="search">
@@ -62,22 +62,22 @@
   <div class="container-fluid color3 py-1">
     <div class="row">
       <div class="col-12 col-md-2">
-        <h5 class="h6 text-center">Pianos</h5>
+        <h5 class="h6 text-center"><a class="quitarA" href="#">Pianos</a></h5>
       </div>
       <div class="col-12 col-md-2">
-        <h5 class="h6 text-center">Guitarras</h5>
+        <h5 class="h6 text-center"><a class="quitarA" href="guitarras.html">Guitarras</a></h5>
       </div>
       <div class="col-12 col-md-2">
-        <h5 class="h6 text-center">Flautas</h5>
+        <h5 class="h6 text-center"><a class="quitarA" href="#">Flautas</a></h5>
       </div>
       <div class="col-12 col-md-2">
-        <h5 class="h6 text-center">Percusión</h5>
+        <h5 class="h6 text-center"><a class="quitarA" href="#">Percusión</a></h5>
       </div>
       <div class="col-12 col-md-2">
-        <h5 class="h6 text-center">Trompetas</h5>
+        <h5 class="h6 text-center"><a class="quitarA" href="#">Trompetas</a></h5>
       </div>
       <div class="col-12 col-md-2">
-        <h5 class="h6 text-center">Saxo</h5>
+        <h5 class="h6 text-center"><a class="quitarA" href="#">Saxo</a></h5>
       </div>
     </div>
   </div>
@@ -147,7 +147,7 @@
       </div>
       <div class="p-2 bd-highlight" bis_skin_checked="1">
         <div class="circulo">
-          <img class="imgCirculoGuitarra" src="/img/categoriasTop/guitarraEspañola.jpg">
+          <a href="guitarras.html"><img class="imgCirculoGuitarra" src="/img/categoriasTop/guitarraEspañola.jpg"></a>
         </div>
         <p class="">Guitarra Española</p>
       </div>
@@ -232,7 +232,7 @@
   <div class="container-fluid color1">
     <div class="row">
       <div class="col-12 col-md-3 col-xl-3 justify-content-center">
-        <img class="tamanoLogo py-2" src="/img/elementosPagina/logo.png">
+        <img class="tamanoLogo py-3" src="/img/elementosPagina/logo.png">
       </div>
       <div class="col-12 col-md-3 col-xl-2">
         <p class="py-5 my-5 text-light">
@@ -262,7 +262,26 @@
   </div>
 
 
+  <script>
+    $(document).ready(function () {
+      $('.botonSus').click(function () {
+        var correoElectronico = $('.inputSus').val();
   
+        $.ajax({
+          url: '/api/suscribirse', // Cambia la URL según tu configuración del servidor
+          method: 'POST',
+          data: { email: correoElectronico },
+          success: function (response) {
+            alert(response.message); // Muestra un mensaje de éxito o error
+          },
+          error: function (error) {
+            console.error('Error al suscribirse:', error);
+            alert('Ocurrió un error al suscribirse. Por favor, inténtalo de nuevo.');
+          },
+        });
+      });
+    });
+  </script>
 
 
 </body>
