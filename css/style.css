@@ -230,3 +230,29 @@
     .marca{
         width: 100px;
     }
+
+
+    #brandCarousel .carousel-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px; /* Ajusta la altura según tus necesidades */
+      }
+      
+      #brandCarousel .carousel-inner {
+        display: flex;
+      }
+      
+      #brandCarousel .carousel-control-prev,
+      #brandCarousel .carousel-control-next {
+        align-self: center;
+      }
+      
+      .brand-image {
+        max-height: 100%;
+        max-width: 100%;
+      }
+
+      .imagenCaroMarca{
+        width: 300px;
+      }
